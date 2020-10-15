@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background: #000000;
+}
+
+#center {
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: #fcffc4;
+    height: 1000px;
+    background: linear-gradient(to right bottom, rgb(121, 86, 241), rgb(253, 127, 203));
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: #000000;
+}
+
+.copyright {
+    height: 20px;
+    transform: translateY(50%);
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nav {
+    align-content: center;
+    height: 25px;
+    float: left;
+    width: 50%;
+    transform: translateY(50%);
+}
+
+ul {
+    margin: 0;
+}
+
+ul, li {
+    color: #FFFFFF;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.search {
+    text-align: center;
+    height: 50px;
+    float: left;
+    width: 30%;
+}
+
+input[name=search] {
+    height: 25px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user {
+    float: left;
+    width: 20%;
+    height: 50px;
+    /*transform: translateY(50%);*/
+}
+
+.user-pic {
+    position: fixed;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #ff4e4e, #28ec1a);
+    right: 20px;
+}
